@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unhingely Cute Animals</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Georgia", serif;
+        }
+        body {
+            background-color: #dadbdf;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #494e63;
+            display: flex;
+            align-items: center;
+            padding: 16px 30px;
+            border-bottom: 4px solid #000000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+        header a img {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            border: 3px solid #990000;
+            object-fit: cover;
+            transition: 0.3s ease;
+        }
+        header a img:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+        header h1 {
+            margin-left: 18px;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        nav {
+            margin-left: auto;
+        }
+        nav a {
+            margin-left: 12px;
+            color: #000;
+            background-color: #7ea28d;
+            padding: 10px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: monospace;
+            transition: 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #678573;
+            color: white;
+            transform: scale(1.1);
+        }
+        #bigpfp {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.7);
+            align-items: center;
+            justify-content: center;
+            z-index: 200;
+        }
+        #bigpfp:target {
+            display: flex;
+        }
+        #bigpfp img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 0 20px white;
+            animation: pop 0.3s ease;
+        }
+        #bigpfp a {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-size: 2.5rem;
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 40px 30px;
+        }
+        .box {
+            background-color: #a70a1f;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 5px 5px 0 #000;
+            margin-bottom: 35px;
+            transition: 0.3s ease;
+        }
+        .box:hover {
+            transform: translateY(-4px);
+            background-color: #b20e20;
+        }
+        .box h2 {
+            color: #000;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 1px #fff;
+        }
+        .box p,
+        .box ul {
+            color: #f0f0f0;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            background-color: #494e63;
+            text-align: center;
+            padding: 18px;
+            font-weight: bold;
+            font-family: monospace;
+            border-top: 4px solid black;
+            box-shadow: 0 0 10px inset black;
+        }
+    </style>
+</head>
+<body>
+    <div id="bigpfp">
+        <a href="#">&starf;</a>
+        <img src="https://i.pinimg.com/474x/c7/ec/f2/c7ecf28f64a0dc2c8741e7a33b044f0a.jpg">
+    </div>
+    <header>
+        <a href="#bigpfp">
+            <img src="https://i.pinimg.com/474x/c7/ec/f2/c7ecf28f64a0dc2c8741e7a33b044f0a.jpg">
+        </a>
+        <h1> &starf; Unhingely Cute Animals &starf;
+    </h1>
+<nav>
+    <a href="34_website.html">Home</a>
+    <a href="35_facts.html">Facts & Info</a>
+    <a href="36_aboutus.html">About Us</a>
+</nav>
+    </header>
+    <main>
+        <section class="box">
+            <h2>Hello Ladies and Gentlemen!</h2>
+            <p>
+                Welcome to <b>Unhingely Cute Animals</b>! This is a place for people who love animals - especially our
+                favorites. Here, we share what makes them special, unique, and endlessly fascinating.
+            </p>
+            <p>
+                Whether you’re a student, a casual animal fan, or just someone who can’t resist a cute picture, you’ll
+                find content that’s easy to read, interesting, and full of personality. Everything on this site is meant
+                to spark curiosity and make learning about animals enjoyable.
+            </p>
+        </section>
+        <section class="box">
+            <h2>What’s on This Website?</h2>
+            <p>
+                To keep things simple and easy to explore, the site is split into three main sections:
+            </p>
+            <ul>
+                <li><b>Home</b> — Your starting point. An overview of the site and a welcome page!</li>
+ 
+                <li><b>Facts & Info</b> — The heart of the site. Fascinating facts and detailed information about our
+                    favorite animals.</li>
+ 
+                <li><b>About Us</b> — Meet the team behind the site. Learn why we created it, what animals we love, and
+                    how our favorite creatures inspired this project.</li>
+            </ul>
+            <p>
+                Every page focuses on the animals we adore, with enough detail to be informative while remaining fun to
+                explore.
+            </p>
+        </section>
+        <section class="box">
+            <h2>Why We Made This</h2>
+            <p>
+                We built <b>Unhingely Cute Animals</b> because most animal websites are either too serious or too bland.
+                We wanted a space that is professional, informative, and engaging — a place where our favorite animals
+                get the spotlight they deserve.
+            </p>
+            <p>
+                Our goal is simple: share what makes our favorite animals amazing, provide interesting and accurate
+                facts, and make learning about them enjoyable. As the site grows, we’ll add more animals, more facts,
+                and new ways to explore the creatures that we love most!</p>
+        </section>
+    </main>
+    <footer>
+        © 2025 Unhingely Cute Animals | By Chilli
+    </footer>
+</body>
+</html>

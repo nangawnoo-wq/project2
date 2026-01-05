@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #700b0b;
+        }
+        header{
+            background-color:rgb(73, 67, 68);
+            display: flex;
+            align-items: center;
+        }
+        header h1{
+            padding: 20px;
+            width: 40%;
+            color:rgb(4, 4, 8);
+        }
+        header nav{
+            width: 55%;
+            text-align: right;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color:rgb(3, 3, 3);
+            padding: 20px;
+            font-weight: 600;
+        }
+        header img{
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        .about-container{
+            margin: 30px;
+            background: rgb(121, 28, 28);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 3px 5px 3px 5px grey;
+        }
+        .about-container:hover{
+            box-shadow: 3px 5px 3px 5px rgb(124, 128, 125);
+            transform: scale(1.02);
+        }
+        .about-container h1{
+            margin-bottom: 15px;
+            color: rgb(16, 16, 17);
+        }
+        .team-grid{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .member-card{
+            width: 28%;
+            background-color: #d8d5ce;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 2px 3px 3px 3px grey;
+            text-align: center;
+        }
+        .member-card:hover{
+            transform: scale(1.05);
+            box-shadow: 2px 3px 3px 3px rgb(30, 30, 30);
+        }
+        .member-card img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <header>
+        <img src="https://i.pinimg.com/474x/c7/ec/f2/c7ecf28f64a0dc2c8741e7a33b044f0a.jpg" alt="logo">
+        <h1>About Us</h1>
+        <nav>
+            <a href="34_website.html">Home</a>
+            <a href="35_facts.html">Fact & Info</a>
+            <a href="36_aboutus.html">About Us</a>
+        </nav>
+    </header>
+ 
+    <main>
+        <div class="about-container">
+            <h1>About Us</h1>
+            <p>We are Year 7 Fuchsia, Group 1. We are making a web project about our favourite animals.</p>
+            <p>By Yoon Nandar Aung</p>
+            <div class="team-grid">
+                <div class="member-card">
+                    <img src="Chilli.png" alt="Amara Zaya @ Chilli">
+                    <h3>Amara Zaya @ Chilli</h3>
+                </div>
+ 
+                <div class="member-card">
+                    <img src="nao1.png" alt="Nang Awn Oo">
+                    <h3>Nang Awn Oo</h3>
+                </div>
+ 
+                <div class="member-card">
+                    <img src="aurora.png" alt="Nang Phyu Sin Ko @ Aurora">
+                    <h3>Nang Phyu Sin Ko @ Aurora</h3>
+                </div>
+ 
+                <div class="member-card">
+                    <img src="Zns.png" alt="Zin Nyein Sett">
+                    <h3>Zin Nyein Sett</h3>
+                </div>
+ 
+                <div class="member-card">
+                    <img src="ael ael.png" alt="member">
+                    <h3>Aye Thiri Kyaw @ Ael Ael</h3>
+                </div>
+ 
+                <div class="member-card">
+                    <img src="yna.png" alt="member">
+                    <h3>Yoon Nandar Aung</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
